@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #eee;
+}
+.mylogo{
+    width:50px;
+    height: 50px;
+    display: inline-block;
+    padding: 4px 4px 4px 4px;
+}
+.myname{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+    line-height: 50px;
+}
+.brief{
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    display: flex;
+    background-color: white;
+    box-shadow: 10px 10px 5px rgb(59, 58, 58);
+    flex-direction: column;
+}
+.down{
+     display: flex;
+}
+.itemmenu{
+    display: flex;
+    height: 50px;
+    background-color: white;
+    border-bottom: 1px ridge black;
+}
+.item_div{
+    padding-top: 10px;
+    text-align: center;
+    font-size: large;
+    font-style: oblique;
+    height: 40px;
+    width: 120px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    font-weight: 700;
+}
+.leftmenu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 20%;
+    height: 600px;
+    background-color: white;
+    flex-direction: column;
+    /*border-right: 1px ridge black;*/
+}
+.context{
+    text-align: center;
+}/*目录*/
+.rightcontent{
+    height: 700px;
+    width: 80%;
+    background-color: rgb(27, 79, 124);
+}
+.cebian{
+    background-color: rgba(19, 34, 34, 0.329);
+    border: 5px solid rgba(19, 34, 34, 0.329);
+    border-radius: 2px;
+    margin: 5px;
+}
+.word{
+    font-size:150px;
+    line-height: 50vh;
+    width: 100%;
+    text-align:center;
+    color: rgba(0, 0, 0, 0.1);
+}
+button{
+    color:white;
+    background-color:  rgb(82, 149, 226);
+    border:0;
+    margin: 5px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px ;
+}
