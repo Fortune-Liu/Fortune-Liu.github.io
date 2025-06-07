@@ -1,0 +1,61 @@
+#body {
+    text-align: center;
+    background-color: white;  
+}
+
+#question{
+    font: lighter;
+   color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#no {
+    transform-origin: center right;
+}
+
+#yes {
+    transform-origin: center left;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+    display: none;
+}
+
+.message.show {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
